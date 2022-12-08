@@ -17,21 +17,26 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet"/>
 </head>
 <body>
+    <div class="head">
+        <h3 class="fs-1">Convert Everything to Binary Code!</h3>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-6 fp">
                 <h4 class="branding">Bi-Text</h4>
                 <h1 class="fText">Text</h1>
                 <h1 class="sText">Binary</h1>
-                <p class="">Convert everything to binary code!</p>
             </div>
-            <div class="col-6">
-                <textarea name="" id="input" cols="30" rows="10"></textarea>
-                <textarea name="" id="output" cols="30" rows="10"></textarea>
-                <textarea name="" id="output" cols="30" rows="10"></textarea>
-                <textarea name="" id="output" cols="30" rows="10"></textarea>
-                <textarea name="" id="output" cols="30" rows="10"></textarea>
-                <button onclick="convert()">Convert</button>
+            <div class="col-6 sp">
+                <div class="">
+                    <input type="text" id="input" class="form-control in-ou">
+                </div>
+                <div class="">
+                    <button onclick="convert()" class="conv btn">Convert</button>
+                </div>
+                <div class="">
+                    <input type="text" id="output" class="form-control in-ou">
+                </div>
             </div>
         </div>
     </div>
